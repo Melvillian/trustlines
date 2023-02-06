@@ -10,3 +10,18 @@ Trustlines is a [hyperstructure](https://jacob.energy/hyperstructures.html), we 
 
 `forge build`
 `forge test`
+
+## TODO
+
+- [ ] implement functions
+    - [ ] initiateTrustlineWithdrawal
+    - [ ] cancelTrustlineWithdrawal
+    - [ ] completeTrustlineWithdrawal
+- [ ] natspec for all above functions, storage vars, events, and errors
+- [ ] unit tests for everything
+- [ ] fuzz tests for high risk functionality
+- [ ] [Halmos](https://github.com/a16z/halmos) for extra assurance
+- [ ] [Certora spec](https://docs.certora.com/en/latest/) for extra _extra_ assurance
+- [ ] subgraph for offchain indexing
+- [ ] OpenZeppelin Defender for automated notifications based on onchain events (i.e. when `initiateTrustlineWithdrawal` gets called)
+- [ ] Next.js frontend for interacting with the contract
